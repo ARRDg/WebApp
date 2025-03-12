@@ -4,12 +4,12 @@ namespace WebApp.Controllers
 {
     public class AuthController : Controller
     {
-        public IActionResult login()
+        public IActionResult Login()
         {
             return View();
         }
 
-        public IActionResult register()
+        public IActionResult Register()
         {
             return View();
         }

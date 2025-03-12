@@ -1,0 +1,14 @@
+﻿.container-auth {
+    height: 560px;
+    max-width: 460px;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 960px) {
+}
+
+@media screen and (max-width: 760px) {
+    .container-auth {
+        height: fit-content;
+    }
+}

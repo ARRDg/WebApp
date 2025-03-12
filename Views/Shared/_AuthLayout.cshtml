@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/auth.css" asp-append-version="true" />
 </head>
 
 <body data-bs-theme="dark">
     <main role="main" class="min-vh-100 d-flex align-items-center px-5">
-        <div class="container-auth d-flex w-100 p-0 align-items-center m-auto bg-body-tertiary rounded-4 overflow-hidden">
+        <div class="container-auth d-flex w-100 p-0 align-items-center justify-content-center m-auto bg-body-tertiary rounded-4 overflow-hidden">
             @RenderBody()
         </div>
     </main>
